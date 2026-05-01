@@ -184,3 +184,51 @@ footer ul {
 
 /*** Responsive */
 
+@media (max-width: 768px) {
+    nav ul {
+        justify-content: center;
+    }
+
+    .bg-header {
+        height: 250px;
+        text-align: center;
+        padding: 20px;
+    }
+
+    section,
+    footer {
+        padding: 30px 20px;
+    }
+
+    #card-section > div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 80%;
+    }
+
+    section > div {
+        flex-direction: column;
+    }
+
+    .formulario,
+    .contacto {
+        width: 100%;
+    }
+
+    .contacto {
+        text-align: center;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    footer > div {
+        width: 100%;
+    }
+}
