@@ -184,3 +184,121 @@ footer ul {
 
 /*** Responsive */
 
+@media (max-width: 768px) {
+    nav ul {
+        justify-content: center;
+    }
+
+    .bg-header {
+        height: 250px;
+        text-align: center;
+        padding: 20px;
+    }
+
+    section,
+    footer {
+        padding: 30px 20px;
+    }
+
+    #card-section > div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 80%;
+    }
+
+    section > div {
+        flex-direction: column;
+    }
+
+    .formulario,
+    .contacto {
+        width: 100%;
+    }
+
+    .contacto {
+        text-align: center;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    footer > div {
+        width: 100%;
+    } 
+}
+@media (max-width: 450px) {
+    nav {
+        padding: 15px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    nav ul li a {
+        display: block;
+        padding: 8px;
+    }
+
+    .bg-header {
+        height: 220px;
+        padding: 15px;
+    }
+
+    .bg-header h1 {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+
+    section,
+    footer {
+        padding: 20px 12px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+    }
+
+    .card,
+    .formulario,
+    .contacto {
+        width: 100%;
+    }
+
+    .card {
+        margin: 15px 0;
+        text-align: center;
+    }
+
+    .card > h3 {
+        font-size: 1.3rem;
+    }
+
+    .card p {
+        line-height: 1.5;
+    }
+
+    form {
+        padding: 30px 20px 10px;
+    }
+
+    .news-letter {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .news-letter > input[type="submit"] {
+        position: static;
+        width: 100%;
+    }
+}
